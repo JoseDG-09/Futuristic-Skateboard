@@ -18,7 +18,8 @@ public class Pause : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             ChangePaused();
             //panelPause.SetActive(true);
